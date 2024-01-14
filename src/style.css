@@ -17,6 +17,9 @@ body{
 	align-items: center;
 	
 }
+.mew{
+	background-attachment: scroll;
+}
 #chk{
 	display: none;
 }
