@@ -4,14 +4,12 @@ import "./style.css"
 
 function Login() {
     return(
-        
-        
-            <body>
-	<div class="main">  	
+        <body>
+	<div className="main">  	
 		<input type="checkbox" id="chk" aria-hidden="true"/>
-			<div class="signup">
+			<div className="signup">
 				<form action="/register" method="POST">
-					<label for="chk" aria-hidden="true">Sign up</label>
+					<label htmlFor="chk" aria-hidden="true">Sign up</label>
 					<input type="text" name="txt" placeholder="Name" required=""/>
 					<input type="email" name="email" placeholder="Email" required=""/>
 					<input type="password" name="pswd" placeholder="Password" required=""/>
@@ -19,9 +17,9 @@ function Login() {
 				</form>
 			</div>
 
-			<div class="login">
+			<div className="login">
 				<form>
-					<label for="chk" aria-hidden="true">Login</label>
+					<label htmlFor="chk" aria-hidden="true">Login</label>
 					<input type="email" name="email" placeholder="Email" required=""/>
 					<input type="password" name="pswd" placeholder="Password" required=""/>
 					<button>Login</button>
